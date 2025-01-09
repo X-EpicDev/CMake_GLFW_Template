@@ -1,5 +1,5 @@
 # -------------------- PROJECT SETUP -------------------- #
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.30)
 project(CMake_GLFW_Template)
 
 set(CMAKE_CXX_STANDARD 11)
