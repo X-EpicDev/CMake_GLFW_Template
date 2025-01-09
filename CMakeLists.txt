@@ -1,6 +1,6 @@
 # -------------------- PROJECT SETUP -------------------- #
 cmake_minimum_required(VERSION 3.14)
-project(OpenGL_Learning)
+project(CMake_GLFW_Template)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -8,7 +8,7 @@ set(SRC_DIR "${CMAKE_CURRENT_SOURCE_DIR}/src")
 set(LIB_DIR "${CMAKE_CURRENT_SOURCE_DIR}/includes")
 
 # ------------------ CREATE EXECUTABLE ------------------ #
-add_executable(${PROJECT_NAME} src/main.cpp src/Shader.cpp src/Shader.h)
+add_executable(${PROJECT_NAME} src/main.cpp)
 
 # --------------------- IMPORT GLAD --------------------- #
 set(GLAD_DIR "${LIB_DIR}/glad")
